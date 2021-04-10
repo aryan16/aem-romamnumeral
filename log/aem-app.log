@@ -1,0 +1,52 @@
+2021-04-09 23:10:24.812  INFO 45440 --- [main] com.aem.dev.DevApplication               : Starting DevApplication using Java 14.0.2 on LAPTOP-FRU3C0BG with PID 45440 (C:\Users\mrary\Desktop\dev\adobe\dev\target\classes started by mrary in C:\Users\mrary\Desktop\dev\adobe\dev)
+2021-04-09 23:10:24.824  INFO 45440 --- [main] com.aem.dev.DevApplication               : No active profile set, falling back to default profiles: default
+2021-04-09 23:10:26.054  INFO 45440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2021-04-09 23:10:26.067  INFO 45440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-09 23:10:26.067  INFO 45440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 23:10:26.159  INFO 45440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-09 23:10:26.159  INFO 45440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1235 ms
+2021-04-09 23:10:26.372  INFO 45440 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 23:10:26.554  INFO 45440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2021-04-09 23:10:26.570  INFO 45440 --- [main] com.aem.dev.DevApplication               : Started DevApplication in 2.419 seconds (JVM running for 2.969)
+2021-04-09 23:10:33.946  INFO 45440 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 23:10:33.947  INFO 45440 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-09 23:10:33.948  INFO 45440 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-09 23:10:33.980 ERROR 45440 --- [http-nio-8000-exec-1] com.aem.dev.controller.MainController    : input doesn't contain numbers only: 566h
+2021-04-09 23:10:33.981 ERROR 45440 --- [http-nio-8000-exec-1] com.aem.dev.controller.MainController    : Problem with the input or intToRoman conversion method
+2021-04-09 23:11:06.785 ERROR 45440 --- [http-nio-8000-exec-3] com.aem.dev.controller.MainController    : input is not in the range : 5666
+2021-04-09 23:11:06.786 ERROR 45440 --- [http-nio-8000-exec-3] com.aem.dev.controller.MainController    : input doesn't contain numbers only: 5666
+2021-04-09 23:11:06.786 ERROR 45440 --- [http-nio-8000-exec-3] com.aem.dev.controller.MainController    : Problem with the input or intToRoman conversion method
+2021-04-09 23:13:27.149  INFO 43804 --- [main] com.aem.dev.DevApplication               : Starting DevApplication using Java 14.0.2 on LAPTOP-FRU3C0BG with PID 43804 (C:\Users\mrary\Desktop\dev\adobe\dev\target\classes started by mrary in C:\Users\mrary\Desktop\dev\adobe\dev)
+2021-04-09 23:13:27.152  INFO 43804 --- [main] com.aem.dev.DevApplication               : No active profile set, falling back to default profiles: default
+2021-04-09 23:13:28.547  INFO 43804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2021-04-09 23:13:28.562  INFO 43804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-09 23:13:28.563  INFO 43804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 23:13:28.650  INFO 43804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-09 23:13:28.651  INFO 43804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1417 ms
+2021-04-09 23:13:28.869  INFO 43804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 23:13:29.086  INFO 43804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2021-04-09 23:13:29.100  INFO 43804 --- [main] com.aem.dev.DevApplication               : Started DevApplication in 2.467 seconds (JVM running for 2.928)
+2021-04-09 23:13:31.955  INFO 43804 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 23:13:31.956  INFO 43804 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-09 23:13:31.957  INFO 43804 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-09 23:13:31.984 ERROR 43804 --- [http-nio-8000-exec-1] com.aem.dev.controller.MainController    : input is not in the range : 5666
+2021-04-09 23:13:31.984 ERROR 43804 --- [http-nio-8000-exec-1] com.aem.dev.controller.MainController    : Problem with the input or intToRoman conversion method
+2021-04-09 23:14:43.851 ERROR 43804 --- [http-nio-8000-exec-2] com.aem.dev.controller.MainController    : input doesn't contain numbers only: 56662w
+2021-04-09 23:14:43.852 ERROR 43804 --- [http-nio-8000-exec-2] com.aem.dev.controller.MainController    : Problem with the input or intToRoman conversion method
+2021-04-09 23:23:53.965  INFO 14564 --- [main] com.aem.dev.DevApplication               : Starting DevApplication using Java 14.0.2 on LAPTOP-FRU3C0BG with PID 14564 (C:\Users\mrary\Desktop\dev\adobe\dev\target\classes started by mrary in C:\Users\mrary\Desktop\dev\adobe\dev)
+2021-04-09 23:23:53.970  INFO 14564 --- [main] com.aem.dev.DevApplication               : No active profile set, falling back to default profiles: default
+2021-04-09 23:23:55.947  INFO 14564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2021-04-09 23:23:55.966  INFO 14564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-09 23:23:55.967  INFO 14564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 23:23:56.097  INFO 14564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-09 23:23:56.098  INFO 14564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2043 ms
+2021-04-09 23:23:56.412  INFO 14564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 23:23:56.625  INFO 14564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2021-04-09 23:23:56.634  INFO 14564 --- [main] com.aem.dev.DevApplication               : Started DevApplication in 3.266 seconds (JVM running for 3.721)
+2021-04-09 23:23:59.851  INFO 14564 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 23:23:59.852  INFO 14564 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-09 23:23:59.855  INFO 14564 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-04-09 23:23:59.882 ERROR 14564 --- [http-nio-8000-exec-1] com.aem.dev.controller.MainController    : input doesn't contain numbers only: 56662w
+2021-04-09 23:23:59.883 ERROR 14564 --- [http-nio-8000-exec-1] com.aem.dev.controller.MainController    : Problem with the input or intToRoman conversion method
+2021-04-09 23:24:11.596 ERROR 14564 --- [http-nio-8000-exec-2] com.aem.dev.controller.MainController    : input is not in the range : 67676
+2021-04-09 23:24:11.597 ERROR 14564 --- [http-nio-8000-exec-2] com.aem.dev.controller.MainController    : Problem with the input or intToRoman conversion method

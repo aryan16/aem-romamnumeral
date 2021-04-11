@@ -4,7 +4,8 @@ Containerized java service to convert integer to roman
 ## How to run the project
 
 1) Clone the repository
-2) Run <b> docker-compose up </b>
+2) Run <b> docker-compose up </b> <br>
+   If the above-mentioned command fails, try to upgrade to the latest docker-compose version
 3) Project is running on localhost, port 8080 <br>
    http:127.0.0.1:8080/romannumeral?query={number}
 4) How to check logs : <br>

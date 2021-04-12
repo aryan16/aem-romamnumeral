@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     private static final Logger logger = LoggerFactory.getLogger(MainController.class);
 
-    @Autowired
     private IntToRoman intToRoman;
 
+    @Autowired
     public MainController(IntToRoman intToRoman) {
         this.intToRoman = intToRoman;
     }

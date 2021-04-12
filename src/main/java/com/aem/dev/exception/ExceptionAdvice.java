@@ -1,5 +1,4 @@
-package com.aem.dev.controller;
-import com.aem.dev.exception.MainAppException;
+package com.aem.dev.exception;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

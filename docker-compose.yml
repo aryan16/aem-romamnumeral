@@ -2,6 +2,7 @@ version: "3.7"
 services:
     aem-app:
         image: aem-app:latest
+        container_name: aem_app_dev
         build:
             .
         ports:

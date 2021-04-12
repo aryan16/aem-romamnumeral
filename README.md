@@ -21,7 +21,7 @@ Containerized java service to convert integer to roman
 2) It consist of one service where two methods are being created : one for input validation and one for integer to roman conversion.
 3) Unit testing is done for many different scenarios like normal input, input out of range, invalid characters/symbols in the input.
 4) Logs are getting generated in a separate log file.
-5) On top of this application is contanerized using docker.
+5) On top of this application is containerized using docker.
 
 ## Packaging Layout
 

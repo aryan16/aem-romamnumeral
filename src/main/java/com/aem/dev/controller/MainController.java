@@ -18,7 +18,7 @@ public class MainController {
     private static final Logger logger = LoggerFactory.getLogger(MainController.class);
 
     @Autowired
-    private final IntToRoman intToRoman;
+    private IntToRoman intToRoman;
 
     public MainController(IntToRoman intToRoman) {
         this.intToRoman = intToRoman;

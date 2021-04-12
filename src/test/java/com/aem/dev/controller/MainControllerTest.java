@@ -20,7 +20,7 @@ public class MainControllerTest {
 
     @Before
     public void setUp() throws Exception {
-        final IntToRoman intToRoman = new IntToRoman();
+        IntToRoman intToRoman = new IntToRoman();
         mainController = new MainController(intToRoman);
         mockMvc = MockMvcBuilders.standaloneSetup(mainController).build();
     }

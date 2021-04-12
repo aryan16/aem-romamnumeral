@@ -9,9 +9,10 @@ Containerized java service to convert integer to roman
 3) Project is running on localhost, port 8080 <br>
    http:127.0.0.1:8080/romannumeral?query={number}
 4) How to check logs : <br>
-   a) <b> docker exec -it dev_aem-app_1 /bin/sh </b> <br>
-   If the above-mentioned command doesn't work, check your contanier name and run <b>docker exec -it {container_name} /bin/sh</b> <br>
-   b) <b>cat /log/aem-app.log</b>
+   a) Find out the container name - <b> docker container ls </b> <br>
+   b) Execute the following commands - <br>
+      <b> docker exec -it {container_name} /bin/sh </b> <br>
+      <b> cat /log/aem-app.log </b>
    
 
 ## Engineering and Testing Methodology

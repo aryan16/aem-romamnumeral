@@ -26,8 +26,8 @@ Containerized java service to convert integer to roman
 ## Packaging Layout
 
 1) In src/main/java/com.aem.dev : 4 different packages are there. <br>
-   a) Controller - restcontroller for serving request and a Controller Advice class which adds failed message to failed responses. <br>
-   b) exception - custom exceptions. <br>
+   a) Controller - restcontroller for serving request. <br>
+   b) exception - custom exceptions and a ExceptionAdvice class which adds failed message to failed responses. <br>
    c) service - Inside this package, there are service class which has the main algorithm (int to roman conversion). <br>
    d) model - The model of output response in case of valid response. <br>
    
